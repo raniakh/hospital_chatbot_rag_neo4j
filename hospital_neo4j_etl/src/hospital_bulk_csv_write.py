@@ -5,7 +5,7 @@ from retry import retry
 from neo4j import GraphDatabase  # to connect to running instance
 
 load_dotenv()
-# TODO fix bug os.getenv not working
+
 # LOAD ENVIRONMENT VARIABLES
 HOSPITALS_CSV_PATH = os.getenv("HOSPITALS_CSV_PATH")
 PAYERS_CSV_PATH = os.getenv("PAYERS_CSV_PATH")
